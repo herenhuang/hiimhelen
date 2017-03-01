@@ -22,20 +22,21 @@
     </script>
     <title>Hiya!</title>
 </head>
-
+    
+<a id="Hi"></a>
+    
 <body>
 
 <ul class="nav">
-    <li><a href="#">Hi</a></li>
+    <li><a href=#Hi>Hi</a></li>
     <li><a href=#Experience>Work</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Blog</a></li>
-	<li><a href="#">Contact</a></li>
+    <li><a href="#">This doesn't link to anything</a></li>
+    <li><a href=#Contact>Contact</a></li>
 </ul>    
     
     
     
-<div id="header">
+    <div id="header">
       
     <div class="left_col">
         <img class="hi_img" src="images/hi1.PNG">
@@ -51,7 +52,7 @@
 </div>
 
     
-<a id="Experience"><div id="experience">
+    <a id="Experience"></a><div id="experience">
     
     <div class="title"><img class="title_img" src="images/exp1.PNG"></div>
     <div class="exp_container">
@@ -66,7 +67,7 @@
                 Ecosystem team.</p>
              <p class="exp_text">This was my first time not really being a feature PM - I'd categorize my role as leaning more towards
             developer marketing, technical evangelism, or a business-y PM. It involved a lot of market and audience
-            research, and I did a bunch of cool stuff interviewing the founder of <a href="http://www.c-sharpcorner.com">C# Corner</a> and starring in my very own <a href="https://channel9.msdn.com/Blogs/msedgedev/Edge-14-overview">interview on Channel9.</a></p>
+            research, and I did a bunch of cool stuff interviewing the founder of <a class="reg_link" href="http://www.c-sharpcorner.com">C# Corner</a> and starring in my very own <a class="reg_link" href="https://channel9.msdn.com/Blogs/msedgedev/Edge-14-overview">interview on Channel9.</a></p>
         </div>
         </div>
         
@@ -125,20 +126,18 @@
     
 
 
-    
-    
+<!--
     
 <div id="accomplishments">
-    
-
-    
-    
     <div class="title"><img class="title_img" src="images/achi1.png"></div>
    
     <div class ="row-projects">
         <div class="project">
-        <img class="fade" src="http://mrandrewandrade.com/cv/img/pvc.jpg">
-            <div class="overlay">Test test</div>
+        <a href="https://channel9.msdn.com/Blogs/msedgedev/Edge-14-overview">
+            <img class="fade" src="http://mrandrewandrade.com/cv/img/pvc.jpg">
+            <div class="project_text">Being interviewed on Channel9</div></a>
+
+            
         </div>
         <div class="project">
         <img class="fade" src = "images/fusion.jpg">
@@ -162,10 +161,20 @@
         <img src = "http://mrandrewandrade.com/cv/img/pvc.jpg">
         </div>
     </div>
-    
-
-        
 </div>        
-        
-</body>
+    </a>
+
+    -->
+
+<a id="Contact"></a><footer>  
+    <p class='foo_p'>Please talk to me. I am lonely.</p>
+    <ul class="footer">
+    <li><a href="mailto:helenlyhuang@gmail.com"><img class="contact" src="images/email.png"></a></li>
+    <li><a href="https://www.linkedin.com/in/helenlyhuang/"><img class="contact" src="images/linkedin.png"></a></li>
+    <li><a href="https://twitter.com/herenhuang"><img class="contact" src="images/twitter.png"></a></li>
+</ul> 
+</footer>
+
+    
+    </body>
 </html>
